@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/msavin/Fetcher/master/public/meme.jpg">
 
-# Fetcher API for Meteor: Proof of Concept
+# Fetcher: Static Data for Meteor
 
 Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending data to the client. The goal is to return static data to the client, help you push it on your templates, and make it easy to refresh. It's great for helping you scale down the real-time aspect of your application, so you can scale up in production! The package is intended to help you:
 
@@ -8,7 +8,7 @@ Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending dat
 2. Render data into templates
 3. Refresh data on demand 
 
-This package relies on Method's and Reactive-Dict to work. By standardizing the functionality into a package, we can make the concept easier to grasp and build debug tools around it. Most importantly, it would be really nice to have a clean and simple API to work with. 
+This package relies on Method's and Reactive-Dict to work. By standardizing the functionality into a common API, we can make the concept easier to grasp and build debug tools around it. Most importantly, it would be really nice to have a clean and simple API to work with. 
 
 # Current Status
 
@@ -35,8 +35,8 @@ Fetcher.get("name")
 # Package Goals
 
  - Create a clean and simple API for working with static data
- - Plug into Meteor Publications for permissions/etc
- - Only publish changes in data instead of entire dataset (similar to MergeBox)
+ - Plug into publications for permissions, etc
+ - Maybe only publish changes in data instead of entire dataset (similar to MergeBox)
  - Make it easy to switch from Fetcher to a real-time subscription
  - Keep track of when data was last updated
 
