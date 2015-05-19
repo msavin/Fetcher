@@ -1,0 +1,38 @@
+body {
+	font-family: Helvetica, Arial;
+	color: rgba(0,0,0,.6);
+}
+h1, strong {
+	color: rgba(0,0,0,.8);
+}
+
+.wrapper, .chatWrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.chatWrapper {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	overflow: hidden;
+}
+
+.message {
+	border-bottom: 1px dotted #eee;
+	padding: 4px;
+}
+
+.message:last-child {
+	border-bottom: 0px solid transparent;
+}
+
+.controls {
+	background: #eee;
+	padding: 4px;
+}
+
+.refresh {
+	float: right;
+	color: blue;
+	cursor: pointer;
+}
