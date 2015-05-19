@@ -2,7 +2,7 @@
 
 # Fetcher API for Meteor: Proof of Concept
 
-Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending data to the client. The goal is to return static data to the client, and make it easy to refresh. It's great for helping you scale down the real-time aspect of your application, so you can scale up in production! The main goals are to provide an API that helps you: 
+Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending data to the client. The goal is to return static data to the client, and make it easy to refresh. It's great for helping you scale down the real-time aspect of your application, so you can scale up in production! The package is intended to help you:
 
 1. Retrieve static data from the server
 2. Render data into templates
@@ -10,11 +10,12 @@ Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending dat
 
 This package relies on Method's and Reactive-Dict to work. By standardizing the functionality into a package, we can make the concept easier to grasp and build debug tools around it. Most importantly, it would be really nice to have a clean and simple API to work with. 
 
-Project is currently proof-of-concept.
+# Current Status
 
-Demo at <a href="http://fetcher.meteor.com">http://fetcher.meteor.com</a>
+Project is currently proof of concept to see if there any interest. You can see a demo at <a href="http://fetcher.meteor.com">http://fetcher.meteor.com</a>
 
 # API
+
 Fetcher relies on Meteor methods to retrieve data, and Reactive-Dict to return reactive data to Blaze.
 ```javascript
 // get data from server
@@ -32,14 +33,15 @@ Fetcher.get("name")
 ```
 
 # Package Goals
+
  - Create a clean and simple API for working with static data
  - Plug into Meteor Publications for permissions/etc
  - Only publish changes in data instead of entire dataset (similar to MergeBox)
  - Make it easy to switch from Fetcher to a real-time subscription
  - Keep track of when data was last updated
 
-# Contributing
-Contributors are welcome, but please get in touch before getting started so that we're on the same page. If there is interest in collaborating, I'm fine with starting an organization for it. Get in touch (its[a]maxsavin.com) and I'll add you to the Slack channel.
+# Contributors
+Contributors are welcome! Please get in touch [its@maxsavin.com] so I can get you up to speed and add you to the Slack channel. If there are enough interested collaborators, I'm fine with starting an organization for the project.
 
 # Advertisment
 Check out <a href="http://meteor.toys">Meteor Toys</a>, the insanely handy development tools for Meteor!
