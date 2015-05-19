@@ -2,7 +2,7 @@
 
 # Fetcher API for Meteor: Proof of Concept
 
-Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending data to the client. The goal is to return static data to the client, and make it easy to refresh. It's great for helping you scale down the real-time aspect of your application, so you can scale up in production! The package is intended to help you:
+Fetcher aims to provide an alternative to Meteor's Pub/Sub model for sending data to the client. The goal is to return static data to the client, help you push it on your templates, and make it easy to refresh. It's great for helping you scale down the real-time aspect of your application, so you can scale up in production! The package is intended to help you:
 
 1. Retrieve static data from the server
 2. Render data into templates
