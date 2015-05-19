@@ -12,7 +12,7 @@ This package relies on Method's and Reactive-Dict to work. By standardizing the 
 
 # Current Status
 
-Project is currently proof of concept to see if there any interest. You can see a demo at <a href="http://fetcher.meteor.com">http://fetcher.meteor.com</a>
+Project is currently a proof of concept to see if there is any interest. You can see a demo at <a href="http://fetcher.meteor.com">http://fetcher.meteor.com</a>
 
 # API
 
@@ -41,7 +41,7 @@ Fetcher.get("name")
  - Keep track of when data was last updated
 
 # Contributors
-Contributors are welcome! Please get in touch [its@maxsavin.com] so I can get you up to speed and add you to the Slack channel. If there are enough interested collaborators, I'm fine with starting an organization for the project.
+Contributors are welcome! Please get in touch (its█maxsavin.com) so I can get you up to speed and add you to the Slack channel. If there are enough interested collaborators, I'm fine with starting an organization for the project.
 
 # Advertisment
 Check out <a href="http://meteor.toys">Meteor Toys</a>, the insanely handy development tools for Meteor!
