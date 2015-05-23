@@ -1,7 +1,7 @@
 Package.describe({
     name:          "msavin:fetcher",
     summary:       "Retrieve static data from MongoDB",
-    version:       "0.1.0",
+    version:       "0.1.1",
     git:           "https://github.com/msavin/Fetcher.git",
     documentation: "README.md"
   });

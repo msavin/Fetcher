@@ -1,0 +1,8 @@
+base64@1.0.3
+ejson@1.0.6
+json@1.0.3
+meteor@1.1.6
+msavin:fetcher@0.1.0
+reactive-dict@1.1.0
+tracker@1.0.7
+underscore@1.0.3
