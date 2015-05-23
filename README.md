@@ -10,11 +10,14 @@ Fetcher relies on Meteor.call() to retrieve data from Methods, and Reactive-Dict
 // params are for the method call
 Fetcher.retrieve("taco", "methodName", param1, param2, param3, etc)
 
-// modify the data yourself
+// return data
+Fetcher.get("taco")
+
+// modify the data
 Fetcher.set("taco", {'cheese' : 'yes please'})  
 
-// return data to whatever source
-Fetcher.get("taco")
+// re-run method and update data
+Fetcher.refresh("taco")
 ```
 
 # Advertisment
