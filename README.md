@@ -1,6 +1,6 @@
 # Fetcher
 
-Fetcher is designed to make retrieving data through Method's really easy. It will run Meteor.call() for you, then deposit the result into a reactive dictionary. Just like a Session variable, you can use that data anywhere in your application, and it persists through hot reloads.
+Fetcher is designed to make retrieve and store Method results easy. It will run Meteor.call() for you, then deposit the result into a reactive dictionary. Just like a Session variable, you can use that data anywhere in your application, and it persists through hot reloads.
 
 # How to Use
 
